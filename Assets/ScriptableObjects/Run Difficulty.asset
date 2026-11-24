@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e6373a452ec044b8f2baaac1acf1a6, type: 3}
+  m_Name: Run Difficulty
+  m_EditorClassIdentifier: Assembly-CSharp::DifficultySettings
+  totalPages: 15
+  healthGrowth: 0.06
+  damageGrowth: 0.04
+  maxHealthMultiplier: 2
+  maxDamageMultiplier: 2
+  spitterFirstPage: 3
+  golemFirstPage: 5
+  secondGolemFirstPage: 11
+  stages:
+  - firstPage: 1
+    combat: {x: 2, y: 3}
+    elite: {x: 2, y: 3}
+  - firstPage: 3
+    combat: {x: 3, y: 4}
+    elite: {x: 4, y: 5}
+  - firstPage: 6
+    combat: {x: 4, y: 6}
+    elite: {x: 5, y: 7}
+  - firstPage: 11
+    combat: {x: 5, y: 8}
+    elite: {x: 6, y: 9}
+  reservations:
+  - page: 0
+    role: 2
+    substitute: 4

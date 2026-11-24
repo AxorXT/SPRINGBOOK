@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 636d77235313f9240b09eff68258bb09, type: 3}
+  m_Name: seismic-echo
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradeData
+  id: seismic-echo
+  title: "R\xE9plica s\xEDsmica"
+  description: "Una segunda onda golpea 0,4 s despu\xE9s con el mismo radio y la
+    mitad del da\xF1o."
+  rarity: 2
+  icon: {fileID: 2800000, guid: 47cc9f6462941f64381f30c150149b28, type: 2}
+  limit: 1
+  modifiers:
+  - stat: 9
+    value: 0.5

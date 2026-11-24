@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 636d77235313f9240b09eff68258bb09, type: 3}
+  m_Name: crushing-rebound
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradeData
+  id: crushing-rebound
+  title: Rebote devastador
+  description: "El aplastamiento gana un 30 % de da\xF1o base y un 15 % de impulso
+    vertical base."
+  rarity: 1
+  icon: {fileID: 2800000, guid: 998347ee44e72dd47a04720ac0eb548b, type: 2}
+  limit: 3
+  modifiers:
+  - stat: 6
+    value: 0.3
+  - stat: 7
+    value: 0.15
